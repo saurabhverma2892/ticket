@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+.right{
+    float:right;
+}
+
+.container{
+    padding:20px;
+}
+
+.input-box-group{
+    display:flex;
+}
+
+.label-input{
+    display: flex;
+}
+
+.label{
+    margin-right: 5px;
+}
+
+.box{
+    width:17px;
+    height:17px;
+    border:1px solid black;
+    border-right:none;
+    text-align: center;
+    color: #b5b5b5;
+    font-size: 13px;
+}
+
+.box:last-child{
+    border-right:1px solid black;
+}
+
+.slash{
+    border-top:none;
+    border-bottom:none;
+    font-weight: bolder;
+}
+
+.rectangle{
+    width:50px;
+}
+
+.label-input{
+    margin-bottom: 10px;
+}
